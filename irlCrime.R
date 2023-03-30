@@ -117,4 +117,5 @@ Ireland_crime$Region[Ireland_crime$CrimeSummary == 23817]
 
 #Q7
 
-Donegal_crime = data.frame()
+Donegal_crime = subset(Ireland_crime,Division == "DONEGAL")
+
